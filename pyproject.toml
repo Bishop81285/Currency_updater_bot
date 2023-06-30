@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "currency-updater-bot"
+version = "0.1.0"
+description = ""
+authors = ["Artyom Guryanov <bishop81285@gmail.com>"]
+readme = "README.md"
+packages = [{include = "currency_updater_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
